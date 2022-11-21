@@ -7,6 +7,7 @@
   "author": "Dwaigon Aumer <aumer@aumer.dev>",
   "license": "MIT",
   "scripts": {
+    "prebuild": "rm -rf dist",
     "start": "node dist/index.js",
     "build": "tsc",
     "watch": "tsc -w",
